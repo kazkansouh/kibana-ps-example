@@ -50,6 +50,11 @@ a pattern that captures the `ps-*` index. When prompted, select
 `timestamp` filed as a time field. From here it is possible to access
 the data in the discover and dashboard views.
 
+The script collects basic cpu and memory usage using `psutil`
+package. This provides enough details to craft a number of different
+charts that are responsive to changes on the local machine. This makes
+it useful for learning Kibana.
+
 [kibana]: https://www.elastic.co/guide/en/kibana/current/docker.html
 
 ## Other bits
